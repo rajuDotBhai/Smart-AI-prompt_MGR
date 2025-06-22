@@ -59,6 +59,3 @@ git push origin main
 ---
 
 **That’s it!**  
-Your GitHub repo will now show the installation steps at the bottom of the main page.
-
-If you want me to generate a full sample `README.md` for your project, just ask!
