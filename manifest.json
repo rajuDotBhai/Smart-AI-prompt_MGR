@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Smart Prompt Manager",
+  "version": "1.0",
+  "description": "Save and reuse your favourite AI prompts",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": ["storage", "scripting", "activeTab"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*/*"],
+      "js": ["src/content/contentScript.js"]
+    }
+  ]
+}
