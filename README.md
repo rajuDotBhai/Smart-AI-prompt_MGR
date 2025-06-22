@@ -5,13 +5,6 @@
 
 ## 🧩 How to Set Up the Project
 
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/your-username/smart-prompt-manager.git
-cd smart-prompt-manager
-```
-
 ### 2. Install Dependencies
 
 ```bash
