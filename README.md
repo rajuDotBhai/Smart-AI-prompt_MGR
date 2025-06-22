@@ -1,61 +1,36 @@
 # Smart-AI-prompt_MGR
 📋 One-click copy to quickly use your prompts anywhere
 
+# Smart Prompt Manager - Chrome Extension
 
-## 🚀 Installation & Setup
+## 🧩 How to Set Up the Project
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/rajuDotBhai/Smart-AI-prompt_MGR.git
-   cd Smart-AI-prompt_MGR
-   ```
+### 1. Clone the Repository
 
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
-   or, if you use yarn:
-   ```bash
-   yarn install
-   ```
+```bash
+git clone https://github.com/your-username/smart-prompt-manager.git
+cd smart-prompt-manager
+```
 
-3. **Start the development server**
-   ```bash
-   npm run dev
-   ```
-   or, if you use yarn:
-   ```bash
-   yarn dev
-   ```
+### 2. Install Dependencies
 
-4. **Open the app**
-   - The terminal will show a local URL (usually `http://localhost:5173/` or similar).
-   - Open this URL in your browser to view the app.
+```bash
+npm install
+```
 
-## 🛠️ Build for Production
+### 3. Build the Project
 
-To build the project for production (output in the `dist` folder):
 ```bash
 npm run build
 ```
-or
-```bash
-yarn build
-```
-```
 
-### 3. **Save the File**
+This creates the `dist/` folder required for the extension.
 
-- Save your changes to `README.md`.
+### 4. Load in Chrome
 
-### 4. **Commit and Push the Changes**
+1. Open Chrome and go to: `chrome://extensions/`
+2. Enable **Developer Mode** (top-right)
+3. Click **Load Unpacked**
+4. Select the `dist/` folder inside this project
 
-```bash
-git add README.md
-git commit -m "Add installation and setup instructions to README"
-git push origin main
-```
-
----
-
-**That’s it!**  
+Done.
